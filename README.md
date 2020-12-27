@@ -5,4 +5,7 @@ This repo contains some HTML layouts that I have learned from the book [CSS In D
 The available layouts are:
 - [Just Float Layout](https://github.com/pallavJha/htmlLayouts/blob/master/making-sense-of-floats/float_left_layout.html)
 - [A Grid System, like Bootstrap, using Float](https://github.com/pallavJha/htmlLayouts/blob/master/making-sense-of-floats/grid_systems.html)
-- [Flexible Box Layout for Ink](https://github.com/pallavJha/htmlLayouts/blob/master/flexible-box-layout/ink_page.html)
+- [Flexible Box(Flex) Layout for Ink](https://github.com/pallavJha/htmlLayouts/blob/master/flexible-box-layout/ink_page.html)
+- [A Simple Grid](https://github.com/pallavJha/htmlLayouts/blob/master/grid-layout/simple_grid.html)
+- [Grid Layout for Ink](https://github.com/pallavJha/htmlLayouts/blob/master/grid-layout/ink_page_with_grid.html)
+- [Animal Portfolio Using grid layout](https://github.com/pallavJha/htmlLayouts/blob/master/grid-layout/portfolio.html)
