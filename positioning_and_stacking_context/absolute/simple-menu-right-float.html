@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.nav-bar {
+	position: relative;
+}
+.menu-btn {
+	float: right;
+}
+.dont-show {
+  display: none;
+}
+.menu-btn:hover .nav-menu {
+  visibility: visible;
+  right: 0em;
+  background-color: pink;
+} 
+.nav-menu {
+  visibility: hidden;
+  display: block;
+  z-index: 10;
+	position: absolute;
+  top: 1em;
+  right: -10em;
+  min-width: 8em;
+  background-color: white;
+  transition: right 1s linear, background-color 1s linear 1s;
+}
+
+body {
+  max-width: 1080px;
+  border: 1px solid green;
+  margin: 0 auto;
+  overflow: auto;
+}
+</style>
+</head>
+<body>
+<div class="nav-bar">
+  <div class="menu-btn">
+  <button> Menu </button>
+    <nav class="nav-menu" id="nav-menu-id">
+      <div class="menu-list">
+          <div> A </div>
+          <div> B </div>
+          <div> C </div>
+          <div> D </div>
+          <div> E </div>
+      </div>
+    </nav>
+  </div>
+
+</div>
+<div class="body">
+
+</div>
+
+
+</body>
+</html>
